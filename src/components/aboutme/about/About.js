@@ -37,7 +37,7 @@ const About = () => {
                         I am proficient in various programming languages such as &nbsp;
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    C, Java, Python, HTML, CSS, PHP, Kotlin and JavaScript.{" "}
                   </b>
                 <br />
                 <br />

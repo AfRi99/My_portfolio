@@ -6,6 +6,9 @@ import nyc from "../../images/nyc.png";
 import ci from "../../images/onboarding.png";
 import hd from "../../images/hd.png";
 import pp from "../../images/portfolio.png";
+import aurora from "../../images/Aurora.png"
+import medi from "../../images/medical.png"
+import henna from "../../images/henaventure.png"
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -36,13 +39,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      Henna Ventures
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={henna} alt={henna} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/AfRi99/henna_ventures.git"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +69,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      Built a full-stack e-commerce website for Mehendi services including 3d hand model design customization using the MERN stack (MongoDB, Express, React, NodeJS).
                     </p>
                   </h6>
                   <div
@@ -82,7 +80,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    React ,Tailwind CSS ,MongoDB ,Express ,Node.js
                   </div>
                 </div>
               </Fade>
@@ -99,13 +97,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Aurora
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={aurora} alt={aurora} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/AfRi99/Aurora_Project1.git"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -129,11 +127,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      Aurora is an interactive e-commerce platform offering seamless shopping with secure login, a detailed product catalog, and personalized customization services. It features a streamlined cart, checkout, and options for tailored purchases.
                     </p>
                   </h6>
                   <div
@@ -144,7 +138,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    Html, CSS, Javascript, Bootstrap, PHP
                   </div>
                 </div>
               </Fade>

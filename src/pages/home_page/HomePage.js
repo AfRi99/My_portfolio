@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaGoogle, FaTelegramPlane, FaEnvelope } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
@@ -20,7 +20,7 @@ export default function Home() {
           <Row>
             <Col md={8} className="home-header">
               <h1
-                style={{ paddingBottom: 15, fontSize: "175px" }}
+                style={{ paddingBottom: 15, fontSize: "170px" }}
                 className="heading"
               >
                 Hi There!{" "}
@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/AfRi99"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/afritha-farwin/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,25 +61,25 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      href="https://telegram.org/dl"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
-                      <AiFillInstagram />
+                      <FaTelegramPlane />
                     </a>
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="mailto:your-email@example.com"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
-                      <FaFacebookF />
+                      <FaEnvelope />
                     </a>
                   </li>
-                  <li className="socialicons">
+                  {/* <li className="socialicons">
                     <a
                       href="mailto:mdtonmoy13.mt@gmail.com/"
                       target="_blank"
@@ -88,7 +88,7 @@ export default function Home() {
                     >
                       <FaGoogle />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </Col>
@@ -97,7 +97,7 @@ export default function Home() {
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./profile.png"
+                      src="./profil.png"
                       alt="home pic"
                       className="img-fluid"
                     />
@@ -109,7 +109,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
+      {/* <Certification /> */}
       <Projects />
       <Contactus />
     </section>
