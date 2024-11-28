@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              Afritha.
             </h5>
           </div>
         </Navbar.Brand>
