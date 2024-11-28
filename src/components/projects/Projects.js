@@ -155,13 +155,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      MediCare
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={medi} alt={medi} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/AfRi99/medical-repo-main-main.git"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -185,12 +185,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
-                    </p>
+                     Developed a web application for managing medical appointments and patient records, utilizing HTML, CSS, and JavaScript to deliver a user-friendly interface for both medical staff and patients.
+                    </p> 
                   </h6>
                   <div
                     className="project--lang"
@@ -200,7 +196,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    HTML, CSS, JavaScript, PHP, SCSS
                   </div>
                 </div>
               </Fade>
