@@ -18,6 +18,7 @@ import sims from "../../images/sims.png";
 import aurora from "../../images/Aurora.png"
 import medi from "../../images/medical.png"
 import henna from "../../images/henaventure.png"
+import tournee from "../../images/tournee.png"
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (
@@ -227,13 +228,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Shoppy Ecommerce
+                                  Tournee
                                 </h5>
-                                <img src={eco} alt={eco} />
+                                <img src={tournee} alt={tournee} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Shoppy_Ecommerce"
+                                      "https://github.com/AfRi99/Tournee.git"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -257,12 +258,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Seamless online shopping with a vast catalog,
-                                  secure transactions, and personalized
-                                  recommendations. 24/7 customer support,
-                                  flexible payments, and fast shipping. Explore
-                                  our website and redefine your shopping
-                                  experience.
+                                   The platform allows users to explore travel destinations, manage itineraries, and book services, providing a user-friendly experience for planning trips.
                                 </p>
                               </h6>
                               <div
@@ -273,7 +269,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, React, JavaScript
+                                HTML ,CSS ,PHP ,Bootstrap
                               </div>
                             </div>
                           </Fade>
@@ -290,13 +286,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Personal Portfolio
+                                  Tournee
                                 </h5>
                                 <img src={pp} alt={pp} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                                      "https://github.com/AfRi99/Tournee.git"
                                     }
                                     target="_blank"
                                     rel="noreferrer"

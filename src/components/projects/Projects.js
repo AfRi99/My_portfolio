@@ -11,6 +11,7 @@ import medi from "../../images/medical.png"
 import henna from "../../images/henaventure.png"
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import tournee from "../../images/tournee.png"
 import { HiArrowRight } from "react-icons/hi";
 
 export default function Projects() {
@@ -196,7 +197,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript, PHP, SCSS
+                    HTML, CSS, JavaScript
                   </div>
                 </div>
               </Fade>
@@ -213,13 +214,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      Tournee
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={tournee} alt={tournee} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/AfRi99/Tournee.git"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -243,9 +244,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      The platform allows users to explore travel destinations, manage itineraries, and book services, providing a user-friendly experience for planning trips.
                     </p>
                   </h6>
                   <div
@@ -256,7 +255,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    HTML, CSS, PHP, Bootstrap
                   </div>
                 </div>
               </Fade>

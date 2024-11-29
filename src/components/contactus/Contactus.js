@@ -138,8 +138,10 @@ export default function Contactus() {
                       <p style={{ color: "#fbd9ad" }}>+94763098521</p>
                     </a>
                     <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
+                      href="https://www.google.com/maps?q=Dehiwala,Colombo,SriLanka&hl=en"
                       className="personal-details"
+                      target="_blank" 
+                      rel="noopener noreferrer"
                     >
                       <div className="personal-details">
                         <div className="detailsIcon">
@@ -153,7 +155,7 @@ export default function Contactus() {
                   </div>
                   <div className="contact-map">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31677.625853881025!2d79.8620739!3d6.8527411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bc236290bc3%3A0xd4ab3cd31a0c1f24!2sDehiwala-Mount%20Lavinia%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1698561234567!5m2!1sen!2s" 
                       frameBorder="0"
                       allowFullScreen=""
                       aria-hidden="false"
