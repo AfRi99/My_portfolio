@@ -109,7 +109,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      {/* <Certification /> */}
+     <Certification /> 
       <Projects />
       <Contactus />
     </section>

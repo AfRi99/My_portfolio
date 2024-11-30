@@ -9,7 +9,14 @@ import problem_solving from "../../images/problem_solving.png";
 import python from "../../images/python.png";
 import iq from "../../images/IQ_Test.jpg";
 import computer from "../../images/Computer_knowledge.jpg";
+import de from "../../images/de.jpg"
+import deans from "../../images/deanlist_2ndsem.jpg"
+import web from "../../images/Web.pdf"
+import front from "../../images/Front.pdf"
+import uvaextreme from "../../images/uvaextreme.jpg"
+import codespace  from "../../images/codespace.jpg"
 import Fade from "react-reveal/Fade";
+
 
 export default function Certificate() {
   return (
@@ -20,7 +27,7 @@ export default function Certificate() {
           <Row className="g-5">
             <Col md={4}>
               <img
-                src={python}
+                src={de}
                 alt=""
                 style={{ width: "100%", height: "100%" }}
               />

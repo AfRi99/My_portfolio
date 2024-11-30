@@ -5,6 +5,12 @@ import { Fade } from "react-reveal";
 import ucsc from "../../images/ucsc.png";
 import ufm from "../../images/ufm.png";
 import cbta from "../../images/CBT&A.pdf";
+import de from "../../images/de.jpg"
+import deans from "../../images/deanlist_2ndsem.jpg"
+import web from "../../images/Web.pdf"
+import front from "../../images/Front.pdf"
+import uvaextreme from "../../images/uvaextreme.jpg"
+import codespace  from "../../images/codespace.jpg"
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -38,7 +44,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={de} alt={de} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -55,13 +61,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          Dean's list for putstanding perfomance - Semester 1 of 100 level
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Uva Wellasa University
                         </h3>
                       </div>
                     </div>
@@ -72,7 +78,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
+                          href={de}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -98,14 +104,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
+                          Dean's list for putstanding perfomance - Semester 1 of 100 level
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - Bangladesh Technical Education Board
+                          - UUva Wellasa University
                         </h3>
                       </div>
                     </div>

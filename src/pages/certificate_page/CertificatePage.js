@@ -13,6 +13,12 @@ import c from "../../images/c.jpg";
 import iq from "../../images/IQ_Test.jpg";
 import computer from "../../images/Computer_knowledge.jpg";
 import graphics from "../../images/Graphics_Design.jpg";
+import de from "../../images/de.jpg"
+import deans from "../../images/deanlist_2ndsem.jpg"
+import web from "../../images/Web.pdf"
+import front from "../../images/Front.pdf"
+import uvaextreme from "../../images/uvaextreme.jpg"
+import codespace  from "../../images/codespace.jpg"
 import Particle from "../../Particle";
 export default function CertificatePage() {
   return (
@@ -94,7 +100,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={cbta}
+                                  href={deans}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -126,8 +132,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Basic Computer Application : IT Support
-                                  Technician level-1
+                                  Dean's list for putstanding perfomance - Semester 2 of 100 level
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -136,7 +141,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - Bangladesh Technical Education Board
+                                  - Uva Wellasa University
                                 </h3>
                               </div>
                             </div>
@@ -179,7 +184,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Python Basic : Programming Fundamentals
+                                  Web design for beginners
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -188,7 +193,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - HackerRank
+                                  - Centre for open & distance learning, University o Moratuwa
                                 </h3>
                               </div>
                             </div>
