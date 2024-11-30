@@ -19,6 +19,8 @@ import aurora from "../../images/Aurora.png"
 import medi from "../../images/medical.png"
 import henna from "../../images/henaventure.png"
 import tournee from "../../images/tournee.png"
+import blisshub from "../../images/blisshub.png"
+import book from "../../images/bookriot.png"
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (
@@ -95,7 +97,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                 React ,Tailwind CSS ,MongoDB ,Express ,Node.js
+                                 React, Tailwind, CSS, MongoDB, Express, Node.js
                               </div>
                             </div>
                           </Fade>
@@ -153,7 +155,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                Html ,CSS ,Javascript ,Bootstrap ,PHP
+                                Html, CSS, Javascript, Bootstrap, PHP
                               </div>
                             </div>
                           </Fade>
@@ -269,7 +271,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML ,CSS ,PHP ,Bootstrap
+                                HTML, CSS, PHP, Bootstrap
                               </div>
                             </div>
                           </Fade>
@@ -286,13 +288,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Tournee
+                                  Bliss Hub
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={blisshub} alt={blisshub} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/AfRi99/Tournee.git"
+                                      "https://github.com/MigaraThiyunuwan/EventPlanner.git"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -316,10 +318,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Welcome to my personal portfolio. Explore my
-                                  work, skills, and achievements in a concise
-                                  and visually appealing format. Get a glimpse
-                                  of my expertise and creativity.
+                                  BlissHub, a wedding planning platform that enables users to manage events, vendors, and essential data with features like account creation, service exploration, package ordering, and CRUD operations. Administrators can efficiently oversee operations through a dedicated dashboard.
                                 </p>
                               </h6>
                               <div
@@ -330,7 +329,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, SCSS, React, JavaScript
+                                React, Tailwind CSS, Django
                               </div>
                             </div>
                           </Fade>
@@ -347,9 +346,9 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Amazing Meal
+                                  Book Riot
                                 </h5>
-                                <img src={meal} alt={meal} />
+                                <img src={book} alt={book} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -377,12 +376,7 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Indulge in a mouthwatering meal that combines
-                                  flavors and textures to create a culinary
-                                  masterpiece. Our carefully crafted dishes are
-                                  made with the freshest ingredients, expertly
-                                  prepared to satisfy your taste buds and leave
-                                  you craving for more.
+                                  An online bookstore, enabling users to browse an extensive collection of books by categories, view detailed descriptions, make purchases, and place orders seamlessly. 
                                 </p>
                               </h6>
                               <div
@@ -393,7 +387,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, React
+                                Java
                               </div>
                             </div>
                           </Fade>
