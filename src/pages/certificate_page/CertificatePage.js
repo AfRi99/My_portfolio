@@ -2,21 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import nh from "../../images/nh.jpg";
-import nactar from "../../images/nactar.jpg";
-import ccna from "../../images/CCNA_Certificate.jpg";
-import cbta from "../../images/CBT&A.pdf";
-import skill from "../../images/skill.png";
 import c from "../../images/c.jpg";
-import iq from "../../images/IQ_Test.jpg";
-import computer from "../../images/Computer_knowledge.jpg";
-import graphics from "../../images/Graphics_Design.jpg";
 import de from "../../images/de.jpg"
 import deans from "../../images/deanlist_2ndsem.jpg"
 import web from "../../images/Web.pdf"
 import front from "../../images/Front.pdf"
+import webb from "../../images/webb.png"
+import frontt from "../../images/frontt.png"
 import uvaextreme from "../../images/uvaextreme.jpg"
 import codespace  from "../../images/codespace.jpg"
 import Particle from "../../Particle";
@@ -46,8 +38,8 @@ export default function CertificatePage() {
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">
                               <div className="content">
-                                <a
-                                  href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                              <a
+                                  href={de}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -59,8 +51,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
+                                        src={de}
+                                        alt={de}
                                       />
                                     }
                                   </div>
@@ -79,8 +71,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Problem Solving Basic : Programming
-                                  Fundamentals
+                                  Dean's list for outstanding performance - Semester 1 of 100 level
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -89,7 +80,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - HackerRank
+                                  -Uva Wellassa University
                                 </h3>
                               </div>
                             </div>
@@ -112,8 +103,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ufm}
-                                        alt={ufm}
+                                        src={deans}
+                                        alt={deans}
                                       />
                                     }
                                   </div>
@@ -132,7 +123,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Dean's list for putstanding perfomance - Semester 2 of 100 level
+                                  Dean's list for outstanding performance - Semester 2 of 100 level
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -141,7 +132,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - Uva Wellasa University
+                                  - Uva Wellassa University
                                 </h3>
                               </div>
                             </div>
@@ -151,8 +142,8 @@ export default function CertificatePage() {
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">
                               <div className="content">
-                                <a
-                                  href="https://www.hackerrank.com/certificates/af66a6615aad"
+                              <a
+                                  href={web}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -164,8 +155,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
+                                        src={webb}
+                                        alt={webb}
                                       />
                                     }
                                   </div>
@@ -193,7 +184,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - Centre for open & distance learning, University o Moratuwa
+                                  - Centre for open & distance learning, University of Moratuwa
                                 </h3>
                               </div>
                             </div>
@@ -204,7 +195,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={ccna}
+                                  href={front}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -216,8 +207,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nh}
-                                        alt={nh}
+                                        src={frontt}
+                                        alt={frontt}
                                       />
                                     }
                                   </div>
@@ -236,8 +227,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  CCNA(Cisco Certified Network Associate) :
-                                  Basic Networking for Everyone.
+                                  Front-end Web Development
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -246,8 +236,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - New Horizons Computer Learning Centers,
-                                  Dhaka.
+                                  - Centre for open & distance learning, University of Moratuwa
                                 </h3>
                               </div>
                             </div>
@@ -270,8 +259,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nactar}
-                                        alt={nactar}
+                                        src={uvaextreme}
+                                        alt={uvaextreme}
                                       />
                                     }
                                   </div>
@@ -290,7 +279,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  C Programming Basic : Programming Fundamentals
+                                  Uva Extreme 1.0
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -299,8 +288,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - National Academy for Computer Training and
-                                  Research (NACTAR), Bogura.
+                                  - IEEE Student Branch, Uva Wellassa University 
                                 </h3>
                               </div>
                             </div>
@@ -311,7 +299,7 @@ export default function CertificatePage() {
                             <div className="cert-card">
                               <div className="content">
                                 <a
-                                  href={graphics}
+                                  href={codespace}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -323,8 +311,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={nactar}
-                                        alt={nactar}
+                                        src={codespace}
+                                        alt={codespace}
                                       />
                                     }
                                   </div>
@@ -343,7 +331,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Graphics Design Basic : Creative Fundamentals
+                                  CodeSpace
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -352,14 +340,13 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - National Academy for Computer Training and
-                                  Research (NACTAR), Bogura.
+                                  - IEEE WIE Student Branch Affinity Group
                                 </h3>
                               </div>
                             </div>
                           </Fade>
                         </Col>
-                        <Col md={4}>
+                        {/* <Col md={4}>
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">
                               <div className="content">
@@ -775,7 +762,7 @@ export default function CertificatePage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>
+                        </Col> */}
                       </Row>
                     </Col>
                   </Row>

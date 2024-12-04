@@ -5,9 +5,9 @@ export default function Skills() {
   return (
     <div>
       <div className="mt-4 d-flex flex-row justify-content-center">
-        <Link className="btn btn-primary me-3" to="/personalskill">
+        {/* <Link className="btn btn-primary me-3" to="/personalskill">
           Personal Skill
-        </Link>
+        </Link> */}
         <Link className="btn btn-primary" to="/technicalSkill">
           Technical Skill
         </Link>

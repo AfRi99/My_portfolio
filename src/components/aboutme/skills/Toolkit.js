@@ -18,9 +18,9 @@ export default function Toolkit() {
         <Link className="btn btn-primary me-3" to="/technicalSkill">
           Technical Skill
         </Link>
-        <Link className="btn btn-primary me-3" to="/personalskill">
+        {/* <Link className="btn btn-primary me-3" to="/personalskill">
           Personal Skill
-        </Link>
+        </Link> */}
         <Link className="btn btn-primary " to="/toolkit">
           Toolkit
         </Link>

@@ -35,7 +35,7 @@ export default function MyNav() {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profil.png" className="img-fluid logo" alt="brand" />
+            <img src="./icon.png" className="img-fluid logo" alt="brand" />
             <h5
               id="navhead"
               style={{
@@ -111,7 +111,7 @@ export default function MyNav() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://github.com/AfRi99"
                 target="_blank"
                 className="fork-btn-inner"
               >

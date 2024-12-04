@@ -2,15 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
 import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
 import de from "../../images/de.jpg"
 import deans from "../../images/deanlist_2ndsem.jpg"
 import web from "../../images/Web.pdf"
-import front from "../../images/Front.pdf"
-import uvaextreme from "../../images/uvaextreme.jpg"
-import codespace  from "../../images/codespace.jpg"
+import webb from "../../images/webb.png"
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -34,8 +30,8 @@ export default function Certification() {
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
-                        <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                      <a
+                          href={de}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -78,7 +74,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={de}
+                          href={deans}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -87,7 +83,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
+                            {<img className="logo_img" src={deans} alt={deans} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -104,13 +100,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Dean's list for putstanding perfomance - Semester 1 of 100 level
+                          Dean's list for putstanding perfomance - Semester 2 of 100 level
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - UUva Wellasa University
+                          - Uva Wellasa University
                         </h3>
                       </div>
                     </div>
@@ -120,8 +116,8 @@ export default function Certification() {
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
-                        <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                      <a
+                          href={web}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -130,7 +126,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={webb} alt={webb} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -147,13 +143,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Python Basic for : Programming Fundamentals
+                          Web design for beginners
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Centre for open & distance learning, University of Moratuwa
                         </h3>
                       </div>
                     </div>

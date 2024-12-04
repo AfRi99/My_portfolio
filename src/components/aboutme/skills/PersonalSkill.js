@@ -8,7 +8,7 @@ export default function PersonalSkill() {
     <div>
         <div className="mt-5 d-flex flex-row justify-content-center">
             <Link className="btn btn-primary me-3" to="/technicalSkill">Technical Skill</Link>
-            <Link className="btn btn-primary me-3" to="/personalskill">Personal Skill</Link>
+            {/* <Link className="btn btn-primary me-3" to="/personalskill">Personal Skill</Link> */}
             <Link className="btn btn-primary " to="/toolkit">Toolkit</Link>
         </div>
         <LightSpeed left cascade>
