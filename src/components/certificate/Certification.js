@@ -56,7 +56,7 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Dean's list for putstanding perfomance - Semester 1 of 100 level
+                          Dean's list for outstanding perfomance - Semester 1 of 100 level
                         </h2>
                         <h3
                           className="cert-body-subtitle"
@@ -99,7 +99,7 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Dean's list for putstanding perfomance - Semester 2 of 100 level
+                          Dean's list for outstanding perfomance - Semester 2 of 100 level
                         </h2>
                         <h3
                           className="cert-body-subtitle"
