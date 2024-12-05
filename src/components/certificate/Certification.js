@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ufm from "../../images/ufm.png";
 import de from "../../images/de.jpg"
 import deans from "../../images/deanlist_2ndsem.jpg"
 import web from "../../images/Web.pdf"
