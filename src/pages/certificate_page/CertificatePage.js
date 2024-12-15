@@ -331,7 +331,7 @@ export default function CertificatePage() {
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  CodeSpace
+                                  CODESCAPE
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
